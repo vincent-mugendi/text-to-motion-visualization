@@ -1,14 +1,30 @@
-/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f8f9fa;
+    /* Light gray background */
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #ffffff;
+    /* White background */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow */
 }
 
 #visualization {
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ced4da;
+    /* Light gray border */
+    border-radius: 4px;
+    /* Rounded corners */
     font-size: 18px;
     text-align: left;
 }
