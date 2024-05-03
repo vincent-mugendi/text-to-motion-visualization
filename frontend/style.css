@@ -1,0 +1,14 @@
+/* style.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#visualization {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    text-align: left;
+}
