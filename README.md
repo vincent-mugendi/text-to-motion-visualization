@@ -26,4 +26,4 @@ This project visualizes text based on the frequency and tempo of an audio file. 
     - Web Audio API
 
 ## Credits
-This project was inspired by VLC player auio visualizer.
+This project was inspired by VLC player audio visualizer.
