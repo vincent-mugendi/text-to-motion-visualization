@@ -70,13 +70,22 @@ function animateText(averageFrequency, tempo) {
     const span = document.createElement("span");
     span.textContent = words[i];
 
-    // Modify styles based on frequency and tempo (example)
+    // Define base styles
+    span.style.position = "absolute";
+    span.style.left = "50%";
+    span.style.top = "50%";
+    span.style.transformOrigin = "center";
+    
+    // Modify styles based on frequency and tempo
     span.style.fontSize = averageFrequency / 255 * 2 + "em";
-    span.style.color = `hsl(${tempo % 360}, 100%, 50%)`;
+    span.style.color = `hsl(${tempo % 300}, 100%, 50%)`;
+    span.style.transform = `rotate(${tempo + i * 50}deg) translateX(${tempo}px)`;
 
     visualization.appendChild(span);
   }
 }
+
+
 
 // Event listeners
 audioInput.addEventListener("change", handleAudioUpload);
